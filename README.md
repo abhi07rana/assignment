@@ -29,7 +29,7 @@ Each JSON entry includes:
     "Small Appliances (Microwaves, Toasters, etc.)"
   ]
 }
-
+```
 
 ##Technologies Used
 Python 3.10+
