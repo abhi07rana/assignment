@@ -31,7 +31,7 @@ Each JSON entry includes:
 }
 ```
 
-##Technologies Used
+## Technologies Used
 Python 3.10+
 
 OpenAI GPT-4 API
@@ -42,7 +42,7 @@ Regex
 
 JSON
 
-##📊 Prompting Strategy
+## 📊 Prompting Strategy
 LLMs are used to classify semi-structured material descriptions into predefined categories:
 
 Given raw accepted material text (e.g. “Computers, CRT TVs, Microwaves”)
@@ -59,7 +59,7 @@ Multi-label mapping
 
 Strict matching (e.g., "Laptops" → "Computers, Laptops, Tablets")
 
-##🧠 How Edge Cases Are Handled
+## 🧠 How Edge Cases Are Handled
 Scenario	Strategy
 Nested/complex HTML	Parsed using BeautifulSoup
 JS-rendered data	Simulated with pre-saved HTML (can use Playwright for real pages)
@@ -68,14 +68,14 @@ Missing fields	Regex fallback or default placeholder
 
 
 
-##📥 Installation
+## 📥 Installation
 git clone https://github.com/YOUR_USERNAME/earth911-llm-scraper.git
 cd earth911-llm-scraper
 pip install -r requirements.txt
 
-##🚀 Run Script
+# #🚀 Run Script
 
 python earth911_scraper.py
-##Make sure to:
+## Make sure to:
 
-##Replace "YOUR_OPENAI_API_KEY" with your actual key in the script.
+## Replace "YOUR_OPENAI_API_KEY" with your actual key in the script.
